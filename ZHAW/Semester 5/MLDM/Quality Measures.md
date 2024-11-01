@@ -1,4 +1,6 @@
 #machinelearning #sem5 
+
+https://github.com/michamettler/zhaw-mldm/blob/main/L05/L05_Supervised_Learning_LAB_ASSIGNMENT.ipynb
 ## Accuracy
 For classification tasks, probably the most common evaluation metric is the **proportion-correct accuracy**, often abbreviated simply as **accuracy**: it is the proportion of the examples that were correctly classified.
 ![[Pasted image 20241022214729.png]]

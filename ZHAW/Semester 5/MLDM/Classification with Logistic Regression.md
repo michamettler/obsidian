@@ -1,6 +1,7 @@
 #machinelearning #sem5 
 
 https://phonosync.github.io/mldm-notes/05_logistic_regression.html
+https://github.com/michamettler/zhaw-mldm/blob/main/L04/L04_Logistic_Regression_LAB_ASSIGNMENT.ipynb
 ## Logistic Regression
 We will now introduce a different supervised learning problem, namely **classification**. As with regression, the training data comes in pairs. In contrast to regression, the target values $y$ belong to a _finite_ set. In **binary classification**, we typically call one class “positive” and the other class “negative” – how you name these is up to you.
 ## Logistic Regression

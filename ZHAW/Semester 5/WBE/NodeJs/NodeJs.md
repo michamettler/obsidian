@@ -9,21 +9,34 @@
 ```js
 /* === hello-world.js === */
 const http = require('http')
-const hostname = '127.0.0.1'
-const port = 3000
 
+// server
 const server = http.createServer((req, res) => {
-	res.statusCode = 200
-	res.setHeader('Content-Type'
-	,
-	'text/plain')
-	res.end('Hello, World!\n')
-})
+	req.writeHead(200, {"Content-Type": "text/plain"})
+	req.on("data", chunk =>
+		res.write(chunk.toString().toUpperCase())
+	)
+	req.on("end", () => res.end())
+}).listen(8000)
 
-server.listen(port, hostname, () => {
-	console.log(`Server running at http://${hostname}:${port}/`)
+// client
+const {request} = require("http")  
+let rq = request({
+	hostname: "localhost",
+	port: 8000,
+	method: "POST"
+}, response => {
+	response.on("data", chunk =>
+		process.stdout.write(chunk.toString())
+	);
 })
+rq.write("Hello server\n")
+rq.write("And good bye\n")
+rq.end()  
 ```
+
+- data -Event: nächster Teil verfügbar  
+- end -Event: alle Daten wurden übertragen
 
 ```sh
 # Console

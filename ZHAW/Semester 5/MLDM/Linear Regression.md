@@ -1,6 +1,7 @@
 #machinelearning #sem5 
 
 https://phonosync.github.io/mldm-notes/02_linear_regression.html
+https://github.com/michamettler/zhaw-mldm/blob/main/L02/L02_Linear_Regression_ASSIGNMENT.ipynb
 ## Univariate Linear Regression
 One of the simplest cases of model-based learning is **Univariate Linear Regression** (also called **Simple Linear Regression**). Here, the output depends only on one input variable x, and the hypothesis is a linear combination of two parameters $\theta_0$ and $\theta_1$ and the input value $x$:
 $$h_{\theta_0,\theta_1}(x)=\theta_0+\theta_1 x$$
@@ -13,7 +14,7 @@ $$\varepsilon^{(m)} = y^{(m)} - \hat{y}^{(m)}$$
 ### Cost Function
 The learning (training) consists of minimizing a **Cost Function $J$**, which is a function of the model parameters and depends implicitly on the training data. In the simplest case, the cost function is equal to the loss function and a normalising factor for mathematical convenience:
 $$J(𝜃_0,𝜃_1)=\frac{1}{2 M} \sum_{𝑚=1}^𝑀(𝑦^{(m)}−\hat{𝑦}^{(m)})^2 \tag{2.1}$$
-Minimising the cost function results in specific values for the model parameters $\theta_0$ and $\theta_1$, which can then be used for predicting the outout for new data samples (also called **Inference**):
+Minimizing the cost function results in specific values for the model parameters $\theta_0$ and $\theta_1$, which can then be used for predicting the output for new data samples (also called **Inference**):
 $$\hat{y}=h_{\hat{\theta}_0,\hat{\theta}_1}(x)=\hat{\theta}_0+\hat{\theta}_1 x$$
 ### Closed Form Solution for Univariate Linear Regression
 Using these equations we can simple compute the optimal values for parameters $\theta_0$ and $\theta_1$  for the $M$ given training samples ${(𝑥^{(m)},𝑦^{(m)})}$.

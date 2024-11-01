@@ -1,12 +1,13 @@
 #machinelearning #sem5 
 
 https://phonosync.github.io/mldm-notes/03_gradient_descent.html
+https://github.com/michamettler/zhaw-mldm/blob/main/L03/L03_Gradient_Descent_ASSIGNMENT.ipynb
 
 If we cannot use the normal equation to solve an instance of linear regression explicitly, we can try to find an “as good as possible” solution, i.e. values for the parameters $\theta_0$ such that the corresponding model approximates an optimal model.
 ![[Pasted image 20241006152315.png#invert]]
 ## Gradient Descent Algorithm
 One of the most well-known algorithms to solve this task is **Gradient Descent**. The figure below shows the core idea for a function where we have two parameters that we need to find, $\theta_0$ and $\theta_1$. The image shows for each parameter combination the corresponding cost $J(\theta_0, \theta_1)$  (note that the image shows the cost function of a non-linear model; for a linear model, the cost function would be convex).
-![[Pasted image 20241006152407.png]]
+![[Pasted image 20241006152407.png#invert]]
 ### Gradient Descent for Univariate [[Linear Regression]]
 Plugging the two formulas above into the gradient descent algorithm yields:
 
