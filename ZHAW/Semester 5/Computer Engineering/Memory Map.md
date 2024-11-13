@@ -17,7 +17,7 @@ Neue tiefste Adresse = 0x20000BFF
 **Endadresse**: 0x20000B00 + 0x200 - 1 =0x20000DFF
 
 *Tipp*: Windows Rechner benutzen (Programmierer)
-*Ausserdem*: Eine Konstante (Literal) = 4 Bytes. Darauf achten, ob sie im Code-Bereich benutzt werden oder im Const.
+*Ausserdem*: Eine Konstante = 4 Bytes. Darauf achten, ob sie im Code-Bereich benutzt werden oder im Const.
 
 | Bytes | Hexa |
 | ----- | ---- |

@@ -4,14 +4,14 @@
 ## CPU
 Central Processing Unit or processor
 ### Datapath
-- ALU: Arithmetic and Logic Unit (performs arithmetic and logic operations)
+- ALU: Arithmetic and Logic Unit (performs logic and [[Arithmetic Operation]])
 - registers (fast but limited storage inside CPU)
 - hold intermediate results
 ### Control Unit
 - Finite State Machines (reads and executes instructions)
 - types of operations
 	- data transfer
-	- arithmetic and logic operations
+	- logic and [[Arithmetic Operation]]
 	- jumps
 ## Memory
 - Central memory, connected through System-Bus

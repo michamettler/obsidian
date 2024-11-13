@@ -7,7 +7,7 @@
 ### ALU
 ![[Pasted image 20241110142731.png#invert]]
 ### Flags
-![[Pasted image 20241110142803.png#invert]]
+[[Arithmetic Operation]]
 ### Control Unit
 - Instruction Register (IR)
 	- Machine code (opcode) of instruction that is currently being executed
@@ -22,7 +22,7 @@ Assembler converts each Assembly instruction to 16-bit opcode
 
 Be careful, Opcodes are **reversed** ([[Little Endian]]) compared to the addresses in Debugger:
 ![[Pasted image 20241110143622.png#invert]]
-Furthermore, the Programm Counter (PC) is always one step **ahead** (at second MOVS [[Instruction]], even though 0x20A5 isn't it R0 yet):
+Furthermore, the Programm Counter (PC) is always one step **ahead** (at second MOVS [[Data Transfer]], even though 0x20A5 isn't it R0 yet):
 ![[Pasted image 20241110144226.png#invert]]
 ## Memory Map
 - System Address Map

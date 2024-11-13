@@ -1,4 +1,4 @@
-#computerengineering #sem5 
+#computerengineering #sem5 #instructions
 
 https://moodle.zhaw.ch/pluginfile.php/1890591/mod_page/content/30/CT1_Quick_Reference%20%281%29.pdf
 ## Base Structure
