@@ -1,4 +1,4 @@
-#c #sem4 
+#c #sem4
 ## Make Utility
 Dient zum inkrementellen Erzeugen von Programmen.
 - inkrementell: nur diejenigen, die out-of-date
@@ -34,7 +34,7 @@ $(TARGET): ...                # Definition des Ziels, das in TARGET angegeben is
 ```
 
 ### Aufbau Regel
-![[Pasted image 20240611205306.png]]
+![[Pasted image 20240611205306.png#invert]]
 
 Beispiel
 ```c
@@ -82,7 +82,7 @@ $(TARGET): $(OBJECTS)
 ### Erweiterungen
 Suffix Regel, beschreibt basierend auf File Extension, welche Aktion ausgeführt werden soll.
 
-![[Pasted image 20240611205949.png]]
+![[Pasted image 20240611205949.png#invert]]
 
 Beispiel
 ```c
@@ -97,7 +97,7 @@ doc: $(PNGFILES)  # Das Ziel 'doc' hängt von den PNG-Dateien ab
     dot -Tpng $< > $@
 ```
 ### Fehler ignorieren
-![[Pasted image 20240611210116.png]]
+![[Pasted image 20240611210116.png#invert]]
 ### Sonstige Befehle
 - dry Run: `make -n`
 - Ausgabe nur in Hochkomma `@echo "Hello World"`

@@ -1,4 +1,4 @@
-#c #sem4 
+#c #sem4
 ## sizeof
 - gibt Grösse von Typen oder Variablen aus
 - wird zu Kompilierzeit ausgewertet
@@ -6,14 +6,14 @@
 Beispiele
 
 sizeof(int)
-![[Pasted image 20240611210757.png]]
+![[Pasted image 20240611210757.png#invert]]
 ```c
 int v = 1234;            // Wert von v in hexadezimaler Darstellung ist 0x000004D2
 printf("size=%zd\n", sizeof(v));  // Ausgabe der Größe von v in Bytes, was 4 ist
 ```
 
 sizeof(struct)
-![[Pasted image 20240611210832.png]]
+![[Pasted image 20240611210832.png#invert]]
 ```c
 struct { 
     short s; 
@@ -23,15 +23,14 @@ struct {
 printf("size=%zd\n", sizeof(v));  // Ausgabe der Größe von v in Bytes, die jedoch mehr als 4 sein sollte
 ```
 ## Java vs. C Arrays
-![[Pasted image 20240611210910.png]]
+![[Pasted image 20240611210910.png#invert]]
 ## Aufbau
 - Elemente direkt hintereinander im Speicher
 - Array mit 100 int-Elemente belegt genau 400 Bytes (für 4-Byte ints)
 - lokal kein default-Wert, global Wert 0
 
 ## Anordnung im Speicher
-
-![[Pasted image 20240611211152.png]]
+![[Pasted image 20240611211152.png#invert]]
 
 Daraus resultiert, dass der Array seine Länge nicht kennt.
 
@@ -102,15 +101,13 @@ int a[N] = { 0 };
 access(a, N);
 ```
 ## Strings
-
-![[Pasted image 20240611212520.png]]
+![[Pasted image 20240611212520.png#invert]]
 
 - kein Typ String in c, dafür ein char-Array
 - letztes Element enthält `\0`
 - String Literal in "" geschrieben
 ### Deklarationen
-
-![[Pasted image 20240611212549.png]]
+![[Pasted image 20240611212549.png#invert]]
 #### Ohne Initialisierung
 
 ```c
@@ -196,14 +193,13 @@ char *pa = "hello Switzerland";
 Beinahe identisch, aber
 - a ist char-Array und stellt fixe Startadresse dar (kann nie auf anderen Speicherbereich zeigen)
 - pa ist Pointer-Variable, kann auch später anderen Wert enthalten
-
-![[Pasted image 20240612145034.png]]
+![[Pasted image 20240612145034.png#invert]]
 ## Pointer von Arrays
 
 Adresse des ersten Elements des Arrays ist identisch mit Startadresse des Arrays
 
-![[Pasted image 20240612151205.png]]
-![[Pasted image 20240611221220.png]]
+![[Pasted image 20240612151205.png#invert]]
+![[Pasted image 20240611221220.png#invert]]
 
 ```c
 int a[3] = {2, 4, 6};
@@ -250,8 +246,7 @@ for (size_t i = 0; i < 3; i++) {
 ```
 
 ### Adressen von Array Elementen
-
-![[Pasted image 20240611221716.png]]
+![[Pasted image 20240611221716.png#invert]]
 ### Mehrdimensionale Arrays Parameter
 In Parameterliste alle Dimensionen ausser erste angeben
 - Wenn Arrayschreibweise für erste Dimension => Grösse irrelevant
@@ -271,8 +266,7 @@ print_matrix_2x3(matrix);   // für diesen Call:
 							// double (*m)[3] = matrix; ... m[row][col]...
 ```
 ## Rechnen mit Adressen: Pointer-Arithmetik
-
-![[Pasted image 20240611222023.png]]
+![[Pasted image 20240611222023.png#invert]]
 
 - ist p ein Pointer auf erstes Element von Array, so zeigt Ausdruck `(p + i)` auf der i-te Element des Arrays.
 - Compiler wandelt um in $$p + (i * sizeof(Element) Bytes)$$
@@ -328,7 +322,7 @@ int 9[5] [8];
 ```
 
 Beispiel
-![[Pasted image 20240612180136.png]]
+![[Pasted image 20240612180136.png#invert]]
 ##### Jacked Arrays
 ```c
 char *jagged [] = {
@@ -377,7 +371,7 @@ if (a > p) {
 }
 ```
 #### Sonstige Beispiele
-![[Pasted image 20240611222416.png]]
+![[Pasted image 20240611222416.png#invert]]
 
 Übung
 ```c

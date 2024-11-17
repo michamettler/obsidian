@@ -1,5 +1,0 @@
-- Washington State University
-- Northeastern University
-- University of Cincinnati
-- North Carolina State University
-- University of Wellington (Victoria)

@@ -1,4 +1,4 @@
-#itsecurity #sem5 
+#itsecurity #sem5
 
 ![[Pasted image 20241101181907.png#invert]]
 ## Netfilter

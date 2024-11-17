@@ -1,9 +1,8 @@
-#c #sem4 
+#c #sem4
 ## Speicherorte
 
 Per Default wird Speicher automatisch auf dem Stack alloziert. Kann auch dynamisch auf Heap alloziert werden.
-
-![[Pasted image 20240612152833.png]]
+![[Pasted image 20240612152833.png#invert]]
 
 ## Stack
 Mit jedem [[Funktionen]] passiert automatische Reservation auf Stack für lokale automatische Variablen. Besonders wichtig bei Rekursion. Verändert sich dauernd (Überlauf möglich).

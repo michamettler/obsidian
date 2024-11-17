@@ -1,12 +1,12 @@
-#c #sem4 
+#c #sem4
 ## Motivation
 
-![[Pasted image 20240611213841.png]]
+![[Pasted image 20240611213841.png#invert]]
 
 ## Speicher Adressierung
 
 - eindeutige Nummer eines Bytes ist seine Adresse
-- Benötigt Element mehrere Bytes im Speicher, ist Adresse die niedrigste Adresse dieser Bytes![[Pasted image 20240611214150.png]]
+- Benötigt Element mehrere Bytes im Speicher, ist Adresse die niedrigste Adresse dieser Bytes![[Pasted image 20240611214150.png#invert]]
 - mittels `sizeof` Grösse eines Elements abfragen
 - mittels `&` Adresse abfragen
 - Pointer ist Variable, die Speicheradresse enthält (zeigt auf ein anderes Element)
@@ -48,8 +48,7 @@ int main(void) {
 ```
 
 ### Pointer Operationen
-
-![[Pasted image 20240611215047.png]]
+![[Pasted image 20240611215047.png#invert]]
 
 Adresse abfragen mittels `&`
 ```c
@@ -65,7 +64,7 @@ Zugriff auf Objekt: Dereferenz-Operator mittels `*`
 ```
 
 Fallstrick
-![[Pasted image 20240611215544.png]]
+![[Pasted image 20240611215544.png#invert]]
 
 ## void Pointer
 

@@ -1,6 +1,6 @@
-#itsecurity #sem5 
+#itsecurity #sem5
 ## Begriffe
-![[Pasted image 20240920083619.png]]
+![[Pasted image 20240920083619.png#invert]]
 ### Ransomware
 Erpressung, Geld für gehackte Daten
 ### Fraud
@@ -14,6 +14,6 @@ bspw. Mailschutz missbrauchen (Spam-Erkennung), Crypto-Currency Mining auf Koste
 ### System Outage
 Angriff führt dazu, dass das System nicht mehr läuft
 ## Ziele
-![[Pasted image 20241006162144.png]]
+![[Pasted image 20241006162144.png#invert]]
 ## Counter Measures
-![[Pasted image 20241006162213.png]]
+![[Pasted image 20241006162213.png#invert]]

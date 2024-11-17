@@ -1,4 +1,4 @@
-#computerengineering #sem5 
+#computerengineering #sem5
 
 - little endian
 	- least significant byte at lower address e.g. Intel x86, Altera Nios, ST ARM (STM32)

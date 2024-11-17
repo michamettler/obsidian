@@ -1,4 +1,4 @@
-#c #sem4 
+#c #sem4
 ## Multi-Tasking
 ### Task
 Aufgabe, die von CPU abarbeitet wird.
@@ -26,7 +26,7 @@ Separater Kontrollfluss/Stack innerhalb von Prozess, teilt Memory mit Eltern-Pro
 Somit keine Kosten beim Kontext Switch, Schutz ist allerdings nicht gegeben.
 ## Lebenszyklen
 ### Prozess
-![[Pasted image 20240612200818.png]]
+![[Pasted image 20240612200818.png#invert]]
 
 Commands:
 - fork(): dupliziert Elternprozess und fährt Code in beiden Prozessen hinter fork()-Aufruf weiter (Child erbt Ressourcen wie offene Files von Parent)
@@ -152,8 +152,8 @@ int main() {
 ### Thread
 Threadfunktion wird angegeben, die ausgeführt werden sollte (keine Kopie). Terminiert, wenn Funktion verlassen wird.
 
-![[Pasted image 20240612202957.png]]
-![[Pasted image 20240612203008.png]]
+![[Pasted image 20240612202957.png#invert]]
+![[Pasted image 20240612203008.png#invert]]
 
 Achtung, fehlendes join bzw. detach führt dazu, dass Thread-Ressourcen nie freigegeben werden.
 
@@ -232,7 +232,7 @@ int main() {
 - Child immer unmittelbar nach fork() neues Image starten mit execv() => damit laufende Threads zerstören um Synchronisierung sicherzustellen
 - Für Thread-Identität thread_t() Werte benutzen statt getttid()
 ## Interprozess-Kommunikation
-![[Pasted image 20240612203654.png]]
+![[Pasted image 20240612203654.png#invert]]
 ### Signals
 - Prozess kann beliebigem Prozess Signal senden
 - Signal ist eine Zahl mit systemweit definierter Bedeutung
@@ -241,7 +241,7 @@ int main() {
 	- default
 	- ignore
 	- handler
-![[Pasted image 20240612204218.png]]
+![[Pasted image 20240612204218.png#invert]]
 
 Weitere Befehle
 - kill: sendet Signal-Code an Prozess
@@ -338,7 +338,7 @@ int main() {
 - Signal handling in Multi-Threaded Prozessen schwierig
 ### POSIX Pipe
 
-![[Pasted image 20240612205153.png]]
+![[Pasted image 20240612205153.png#invert]]
 
 - FIFO Byte-Buffer von fixer Maximalgrösse
 - jedes Ende des FIFO wird mit einem eigenen File Deskriptor angesprochen
@@ -456,7 +456,7 @@ Beispiel 1
 - verbindungsorientiert (Client/Server)
 - Zugriff über File-Deskriptoren
 
-![[Pasted image 20240612210557.png]]
+![[Pasted image 20240612210557.png#invert]]
 ### Alternativen
 
 - Shared Memory
@@ -484,7 +484,7 @@ Beispiel 1
 - Deadlock möglich
 - kann mit Semaphore nachgebaut werden
 
-![[Pasted image 20240612210944.png]]
+![[Pasted image 20240612210944.png#invert]]
 
 **Critical Section Problem Beispiel**
 Die Statements, welche die geteilte Ressource (value) modifizieren, dürfen nicht durch einen Task-Kontextswitch unterbrochen werden.
@@ -601,7 +601,7 @@ void append(Container c, Element e)
 }
 ```
 
-![[Pasted image 20240612211834.png]]
+![[Pasted image 20240612211834.png#invert]]
 ### Warten / Signalisieren - Semaphore
 
 - Konzept: Ampel
@@ -612,7 +612,7 @@ void append(Container c, Element e)
 - Rekursion nicht möglich
 - Deadlock
 
-![[Pasted image 20240612211128.png]]
+![[Pasted image 20240612211128.png#invert]]
 
 **Warten Problem Beispiel**
 An notwendigen Synchronisationspunkten muss mit geeigneten Mitteln aufeinander gewartet werden
@@ -662,7 +662,7 @@ int main(void)
 ```
 
 **Lösung Beispiel**
-![[Pasted image 20240612211957.png]]
+![[Pasted image 20240612211957.png#invert]]
 ### Weitere Mittel
 - Monitor
 	- Ressource-Objekt mit eingebauter Synchronisation
@@ -681,4 +681,4 @@ int main(void)
 - Priority Inversion
 	- eine Task mit tiefer Priorität blockiert eine Task mit höherer Priorität → das OS sollte dies erkennen und z.B. der blockierenden Task bis zur Lösung der Blockade die höchste Priorität der blockierten Tasks geben (Priority Inheritance)
 ### Beispiele
-![[Pasted image 20240612212614.png]]
+![[Pasted image 20240612212614.png#invert]]

@@ -1,4 +1,4 @@
-#c #sem4 
+#c #sem4
 ### C vs. Java
 - Java auf C aufgebaut
 - Details weggelassen (Memory Management)
@@ -14,7 +14,7 @@
 - ![[Pasted image 20240611120803.png]]
 ### Sprachelemente
 - Schlüsselwörter
-  ![[Pasted image 20240611120910.png]]
+  ![[Pasted image 20240611120910.png#invert]]
 - Namen
 - nummerische Literale
 - String Literale
@@ -30,9 +30,9 @@
 - Erstes Zeichen Buchstabe oder `_`
 - Keine reservierten Wörter
 ### Datentypen
-![[Pasted image 20240611121206.png]]
+![[Pasted image 20240611121206.png#invert]]
 #### Integer
-![[Pasted image 20240611121224.png]]
+![[Pasted image 20240611121224.png#invert]]
 #### Weitere wichtige Typ-Aliase
 - `size_t`: aus `#include <stddef.h>` für [[Arrays]] Indizes
 - `ptrdiff_t`: aus `#include <stddef.h>` für [[Pointer]] Subtraktion
@@ -53,7 +53,7 @@ Im Code eingefügte, unveränderliche Werte
 - implizit immer `double`, kann auch explizit als `float 12f / 12F` oder `long double 15l / 15L` interpretiert werden
 #### Zeichenliterale
 Spezielle Zeichen mit `\` bilden:
-![[Pasted image 20240611121709.png]]
+![[Pasted image 20240611121709.png#invert]]
 (kann auch durch ASCII ausgedrückt werden)
 => aus technischer Sicht Typ `int` (Hexa Code für ASCII)
 #### Strings
@@ -84,8 +84,8 @@ double r, radius = 15.0;
 ### Operatoren
 Vorrang und Reihenfolge gleich wie Java (Punkt vor Strich, Klammer, etc.)
 
-![[Pasted image 20240611145327.png]]
-![[Pasted image 20240611145341.png]]
+![[Pasted image 20240611145327.png#invert]]
+![[Pasted image 20240611145341.png#invert]]
 ### Ausdrücke
 - Verbindung von Operationen
 - müssen nicht zugewiesen werden (kann auch allein stehen und nichts machen)
@@ -232,7 +232,7 @@ int main(void) {
 
 ```
 
-![[Pasted image 20240611182019.png]]
+![[Pasted image 20240611182019.png#invert]]
 ### Enum
 ```c
 enum wochentage {Montag, Dienstag, Mittwoch, Donnerstag, Freitag, Samstag, Sonntag};

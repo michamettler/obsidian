@@ -1,4 +1,4 @@
-#c #sem4 
+#c #sem4
 ## Funktionsdefinition
 
 ```c
@@ -129,8 +129,7 @@ int increment(int a) {
 
 ```
 ### By Reference
-
-![[Pasted image 20240612155656.png]]
+![[Pasted image 20240612155656.png#invert]]
 
 Adresse wird auch per Value übergeben. Referenzierte Variable kann so aber in Methode modifiziert werden.
 
@@ -167,7 +166,7 @@ int is_caps = starts_with_capital_letter("Hello");
 #### Arrays als Parameter
 Array kann auch übergeben werden, [[Pointer]] zeigt immer auf erstes Element.
 
-![[Pasted image 20240612174724.png]]
+![[Pasted image 20240612174724.png#invert]]
 
 ```c
 // Beides äquivalent
@@ -258,7 +257,7 @@ double trapez (double (*func)(double x), double start, double end, int n) {
 
 Beispiel:
 
-![[Pasted image 20240612175445.png]]
+![[Pasted image 20240612175445.png#invert]]
 ## Lokale Variablen
 Funktionsparameter wie lokale Variable, nur innerhalb der Funktion sichtbar (keine Konflikte mit Variablen von aussen).
 
@@ -272,8 +271,7 @@ void printLine(int n) {     /* n ist wie eine lokale Variable */
 }
 ```
 ### Sichtbarkeit
-
-![[Pasted image 20240611190459.png]]
+![[Pasted image 20240611190459.png#invert]]
 
 ```c
 #include <stdio.h>

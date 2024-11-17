@@ -1,4 +1,4 @@
-#itsecurity #sem5 
+#itsecurity #sem5
 
 A distributed denial-of-service (DDoS) attack is a malicious attempt to disrupt the normal traffic of a targeted server, service or network by overwhelming the target or its surrounding infrastructure with a flood of Internet traffic, often by botnets (group of computers which have been infected by malware and have come under the control of a malicious actor.)
 https://www.cloudflare.com/en-gb/learning/ddos/what-is-a-ddos-attack/

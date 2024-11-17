@@ -1,4 +1,4 @@
-#itsecurity #sem5 
+#itsecurity #sem5
 ## Kryptographie
 
 Betrifft Confidentiality und Cryptology bzgl Zielen der IT Security [[Overview]].

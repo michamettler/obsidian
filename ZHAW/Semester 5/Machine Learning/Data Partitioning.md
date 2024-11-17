@@ -1,4 +1,4 @@
-#machinelearning #sem5 
+#machinelearning #sem5
 ## Fixed Data Splits
 ![[Pasted image 20241022215607.png#invert]]
 - With “large” datasets (say, >= 1000 examples), it is common to randomly partition the dataset into a training (~80%) and a testing (~20%) portion.

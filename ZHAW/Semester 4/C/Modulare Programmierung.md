@@ -1,4 +1,4 @@
-#c #sem4 
+#c #sem4
 ## Präprozessor, Compiler und Linker
 
 1. Präprozessor führt Text-Ersetzungen durch (Makroanweisungen wir `#include, #define, #ifdef`)
@@ -26,7 +26,7 @@
 		2. Variablen in anderer Quelldatei
 2. Linker verbindet noch offene Aufrufe und generiert ausführbares Programm
 
-![[Pasted image 20240611193657.png]]
+![[Pasted image 20240611193657.png#invert]]
 ## Modulare Programmierung
 Beschreibt Aufteilung des Codes in mehrere Module (typischerweise pro Modul ein Headerfile, Schnittstelle).
 

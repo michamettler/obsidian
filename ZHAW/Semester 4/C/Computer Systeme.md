@@ -1,10 +1,9 @@
-#c #sem4 
+#c #sem4
 ## Schichtentrennung
-
-![[Pasted image 20240612181503.png]]
-![[Pasted image 20240612181532.png]]
+![[Pasted image 20240612181503.png#invert]]
+![[Pasted image 20240612181532.png#invert]]
 ### Computer Hardware
-![[Pasted image 20240612181554.png]]
+![[Pasted image 20240612181554.png#invert]]
 #### CPU
 - Programmausführung
 - Datenverarbeitung
@@ -40,7 +39,7 @@ Kernel verwaltet geöffnete Files mit Deskriptoren (int Wert).
 - fully-buffered: Daten können gesammelt werden und erst wenn Buffer voll wird Block ans Ziel übermittelt
 - line-buffered: erst wenn Zeilenende erkannt als Block ans Ziel übermittelt
 #### IO Attribuute
-![[Pasted image 20240612190052.png]]
+![[Pasted image 20240612190052.png#invert]]
 ## Betriebssystem (OS)
 - Verwalten der Hardware Ressourcen
 - [[Task, Prozesse und Threads]], Memory, Filesystem
@@ -53,7 +52,7 @@ Programm in Ausführung, ein Kontrollfluss/Stack, eigenes Memory
 #### Thread
 Separater Kontrollfluss/Stack innerhalb eines Prozesses
 #### Multitasking
-![[Pasted image 20240612182253.png]]
+![[Pasted image 20240612182253.png#invert]]
 ## System Calls
 Auf geschützte HW zugreifen => Mode Switch (Kernel Mode, User Mode), insbesondere auch für Programme wichtig um auf CPU zuzugreifen. Gehen immer über syscall() Funktion.
 
@@ -73,6 +72,6 @@ Alle Prozesse haben selben virtuellen Memory Bereich.
 #### Pipe
 Speist stdout von Kommando in stdin des nächsten.
 ## Filesystem
-![[Pasted image 20240612183217.png]]
-![[Pasted image 20240612183224.png]]
+![[Pasted image 20240612183217.png#invert]]
+![[Pasted image 20240612183224.png#invert]]
 

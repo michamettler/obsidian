@@ -1,7 +1,8 @@
 #visualcomputing #javascript #sem5 
 ## Three.js
 
-Example
+### Example
+
 ```html
 <body>
 	<div id="webgl-container"></div>
@@ -26,4 +27,38 @@ Example
 	</script>
 </body>
 ```
+### Scene Graph
+![[Pasted image 20241117170049.png#invert]]
+![[Pasted image 20241117170151.png#invert]]
+#### Object3D
+- Node "Instance"
+- Transformation matrix
+- Children array
 
+#### Mesh
+- Subclass of Object3D
+- [[#Mesh Geometry]] (shared)
+- Material (shared)
+	- Defines the way color is calculated on geometry surfaces
+##### Illustration of shared Geometry and Material
+![[Pasted image 20241117170330.png#invert]]
+### Operations
+#### Mesh Geometry
+
+```js
+var geometry = new THREE.Geometry();
+geometry.vertices.push(
+ new THREE.Vector3( -10, 10, 0 ),
+ new THREE.Vector3( -10, -10, 0 ), new THREE.Vector3( 10, -10, 0 )
+);
+geometry.faces.push( new THREE.Face3( 0, 1, 2 ) );
+```
+#### Extrude
+![[Pasted image 20241117165828.png]]
+```js
+var arrow = new THREE.Shape([ new THREE.Vector2(0, 3),
+ new THREE.Vector2(3, 3), new THREE.Vector2(3, 4), new THREE.Vector2(5, 2), new THREE.Vector2(3, 0), new THREE.Vector2(3, 1),
+ new THREE.Vector2(0, 1), new THREE.Vector2(0, 3) ]);
+var geom = new THREE.ExtrudeGeometry(arrow, {
+ bevelEnabled: false, amount: 1.5 });
+```
