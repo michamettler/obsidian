@@ -11,5 +11,7 @@
 ![[Pasted image 20241114212011.png#invert]]
 ## Procedure Call Standard
 ![[Pasted image 20241116081326.png#invert]]
+### Stack Frame
+![[Pasted image 20241123083742.png#invert]]
 ### Example
 ![[Pasted image 20241116082511.png#invert]]

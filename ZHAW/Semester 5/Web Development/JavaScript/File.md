@@ -1,4 +1,4 @@
-#webdevelopment #sem5 
+#webdevelopment/javascript #sem5 #javascript 
 ## File API
 ### Synchrones Lesen aus Datei
 
@@ -9,7 +9,7 @@ let data = fs.readFileSync('/etc/hosts')console.log(data)
 data = fs.readFileSync('/etc/hosts', 'utf8')console.log(data)
 /* → ### Host Database#... */
 ```
-### Asynchrones Lesen aus Datei [[Async]]
+### Asynchrones Lesen aus Datei [[6 Async]]
 
 ```js
 const fs = require('fs')

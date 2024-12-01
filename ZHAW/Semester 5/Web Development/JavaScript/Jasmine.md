@@ -1,4 +1,4 @@
-#webdevelopment #sem5 #javascript 
+#webdevelopment/javascript #sem5 #javascript 
 
 - Testsuite besteht aus mehreren Specs
 - Ziel in natürlicher Sprache beschrieben

@@ -1,4 +1,4 @@
-#webdevelopment #javascript #sem5 
+#webdevelopment/javascript #sem5 #javascript 
 ## Logische Ausdrücke
 
 ```js
@@ -31,7 +31,7 @@ true
 > "" === false
 false
 ```
-### Vergleich Werte- und Referenzdatentypen [[Data Types]]
+### Vergleich Werte- und Referenzdatentypen [[1 Data Types]]
 
 ```sh
 > [ []==[], {}=={}, (()=>{})==(()=>{}) ]

@@ -113,3 +113,35 @@ Approach used to increase the size and diversity of training data without actual
 #### Audio
 - frequency channels and time steps in the mel spectrogram
 ![[Pasted image 20241117153415.png#invert]]
+## Example
+
+```python
+from keras.callbacks import EarlyStopping
+
+# prepare our model
+model = Sequential()
+model.add(Input(shape=(28, 28)))
+model.add(Flatten())
+model.add(Dense(128, activation="relu"))
+# model_dropout.add(Dropout(rate=0.1)) # Dropout
+model.add(Dense(10, activation="softmax"))
+model.compile(loss="categorical_crossentropy", optimizer="sgd", metrics=["accuracy"])
+
+early_stopping = EarlyStopping(
+    monitor="val_loss",
+    mode="min",
+    patience=1,
+)
+
+# note that we pass the early_stopping object as a callback here
+history = model.fit(
+  x_train,
+  y_train,
+  batch_size=16,
+  epochs=40,
+  validation_split=.1,
+  callbacks=[early_stopping]
+)
+
+plot_history(history)
+```

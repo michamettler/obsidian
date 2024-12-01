@@ -1,4 +1,4 @@
-#javascript #sem5 #webdevelopment 
+#sem5 #webdevelopment/javascript #javascript 
 ## Overview
 - Speichern von Daten clientseitig
 - Einfache Variante: [[Cookies]]
