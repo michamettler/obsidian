@@ -1,5 +1,4 @@
 #itsecurity #sem5 
-
 ## Access Control
 ![[Pasted image 20241122150233.png#invert]]
 ## Authentication

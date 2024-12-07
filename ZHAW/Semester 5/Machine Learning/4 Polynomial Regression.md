@@ -13,10 +13,10 @@ Hence, we can apply our methods from before - e.g. normal equation ([[2 Linear 
 For **Multivariate Linear Regression Model** (multiple input variables $x_1, .. x_n$) ([[2 Linear Regression]]):
 $$h(x_1, .. x_n) = \theta_0 + \theta_1 x_1 + \theta_2 x_1^2x _3 + \theta_3 x_2 x_3^3 + \theta_4 \sqrt{x_2 x_3} +...$$
 ## Over- and Underfitting
-If we take very large degrees, our curve will “jump around” a lot. While this model would have very good costs (close to zero), it is not really useful, since it “does not generalize” well (for new values) => **Overfitting**.
+If we take very large degrees, our [[Learning Curve]] will “jump around” a lot. While this model would have very good costs (close to zero), it is not really useful, since it “does not generalize” well (for new values) => **Overfitting**.
 ![[Pasted image 20241006153732.png#invert]]
 ### Regularization
-In order to avoid overfitting, we can either decrease the degree of the polynomials - or we can, for a given degree, prevent the fitted curve from “jumping around” too much.
+In order to avoid overfitting, we can either decrease the degree of the polynomials - or we can, for a given degree, prevent the fitted [[Learning Curve]] from “jumping around” too much.
 $$J(\theta) = \frac{1}{2 M} \left[ \sum_{𝑚=1}^𝑀(𝑦^{(m)}−h_{\theta}(x^{(m)}))^2 + \lambda \sum_{j = 1}^{n} \theta_j^2 \right] \tag{4.1}$$
 ![[Pasted image 20241006153910.png#invert]]
 Note that the regularization term depends _only_ on the parameters $\theta_0$, not on the training samples. The **Hyperparameter** $\alpha$ determines “how much” regularization counts: The larger $\alpha$ , the more the values of $\theta_0$ contribute to the cost.

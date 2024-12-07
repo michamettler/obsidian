@@ -1,4 +1,6 @@
- #machinelearning #sem5 
+#machinelearning #sem5 
+ 
+https://phonosync.github.io/mldm-notes/09_generative_models.html
 
 c.f [[Probability Theory]]
 ## Discriminative vs. Generative
