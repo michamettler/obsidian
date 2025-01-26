@@ -37,12 +37,16 @@ Decision trees can also be used for regression tasks. The main difference to a c
 The predictions are shown as red lines (vertical corresponds to a split node).
 ![[Pasted image 20241106193620.png#invert]]
 The predicted value for each region is always the mean value of the training samples in that region, i.e. from that corresponding leaf node. That is, the regression tree approximates the training data as a step function with the steps corresponding to the leaf nodes.
+### Example
+![[Pasted image 20250112124112.png]]
 ## Training Regression Trees
 $$MSE(Q_i)=\frac{1}{M_i}\sum_{y\in Q_i} \left(y-\bar{y}_i\right)^2  \tag{7.4}$$
 $$\bar{y}_i=\frac{1}{M_i}\sum_{y\in Q_i} y$$
 ## Regularization
 Decision trees make very few assumptions about the training data (as opposed to, for example, [[2 Linear Regression]] models, which assume that the data is linear). If left unconstrained, the tree structure will adapt itself to the training data, fitting it very closely, most likely even **overfitting** it (nonparametric).
 In scikit-learn `max_depth` and a few other hyperparameters control the stopping conditions to restrict the maximum depth of the decision tree, which will regularize the model and thus reduce the risk of overfitting.
+### Pruning
+![[Pasted image 20250105125534.png#invert]]
 ### Parameters
 #### `max_depth`  
    The maximum depth of the tree. With the default value `None`, nodes are expanded until all leaves are pure or until all leaves contain less than `min_samples_split` samples.
@@ -65,5 +69,9 @@ Random Forests are a type of ensemble methods, that are composed of individual d
 ![[Pasted image 20241106194706.png#invert]]
 Generally, the individual trees are trained by the **bagging** (short for Bootstrap AGGregatING) method. The bootstrap refers to the strategy of **generating diversity** among the trees (different subset). In the bagging approach this sampling is performed with replacement. On the other hand, if the sampling is done without replacement it is called **pasting**.
 Once all trees are trained, the ensemble can make a prediction for a new instance by aggregating the predictions of all trees. For regression tasks (`RandomForestRegressor`) this is done by **averaging** the predicted values. For classification tasks (`RandomForestClassifier` in scikit-learn) this is typically done by **hard voting** or **soft voting**.
-![[Pasted image 20241106200322.png#invert]]
-![[Pasted image 20241106200506.png#invert]]
+![[Pasted image 20250105125827.png#invert]]
+![[Pasted image 20250105125850.png#invert]]
+### Hyperparameters
+![[Pasted image 20250105125936.png#invert]]
+### Out-Of-Bag Error
+![[Pasted image 20250105130055.png#invert]]

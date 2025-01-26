@@ -131,7 +131,8 @@ function Person (name) {
 	this.name = name
 	this.toString = function () {return `Person with name '${this.name}'`}
 }  
-let p35 = new Person("John")console.log(""+p35)
+let p35 = new Person("John")
+console.log(""+p35)
 // → Person with name 'John'
 ```
 
@@ -157,7 +158,8 @@ Example:
 ```js
 class PartTimeEmployee extends Employee {
 	constructor (name, salary, percentage) {
-		super(name, salary) this.percentage = percentage
+		super(name, salary)
+		this.percentage = percentage
 	}
 	get salary100 () {
 		return this.salary * 100 / this.percentage

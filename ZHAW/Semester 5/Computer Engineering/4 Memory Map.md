@@ -1,7 +1,13 @@
 #computerengineering #sem5
 ## File Sections
-**Achtung**: Reihenfolge kann variieren
+**Achtung**: Reihenfolge kann variieren.
 ![[Pasted image 20241110145148.png#invert]]
+### Example
+![[Pasted image 20250116111026.png#invert]]
+![[Pasted image 20250122162719.png#invert]]
+liegen 1 Byte auseinander
+1 Byte entspriche 1 in Hexa
+![[Pasted image 20250116111014.png#invert]]
 ### Ausrechnen
 
 Tiefste Adresse = 0x20000700
@@ -17,7 +23,9 @@ Neue tiefste Adresse = 0x20000BFF
 **Endadresse**: 0x20000B00 + 0x200 - 1 =0x20000DFF
 
 *Tipp*: Windows Rechner benutzen (Programmierer)
-*Ausserdem*: Eine Konstante = 4 Bytes. Darauf achten, ob sie im Code-Bereich benutzt werden oder im Const.
+*Ausserdem*: 
+- Eine Konstante = 4 Bytes
+- Eine Codezeile = 2 Byte * Anz. Zeile + 4 * Anz. verwendete Vars, Konstante nur falls auf Var verweist
 
 | Bytes | Hexa |
 | ----- | ---- |
@@ -25,14 +33,18 @@ Neue tiefste Adresse = 0x20000BFF
 | 512   | 200  |
 | 256   | 100  |
 | 128   | 80   |
-### In Code
-![[Pasted image 20241110153644.png#invert]]
-- Directives for uninitialized data
+### Directives
+Directives for uninitialized data
 	- SPACE or % with number of bytes to be reserved - Reserves number of bytes without initialing them
 - DCB: **B**ytes
 - DCW: Half-**W**ords
 - DCD: Words
 ![[Pasted image 20241110154504.png]]
-#### Example
 ![[Pasted image 20241110153740.png#invert]]
+### In Code
+![[Pasted image 20241110153644.png#invert]]
+#### Example
 ![[Pasted image 20241110155432.png#invert]]
+![[Pasted image 20250116111912.png#invert]]
+### Object File Sections
+![[Pasted image 20250116111817.png#invert]]

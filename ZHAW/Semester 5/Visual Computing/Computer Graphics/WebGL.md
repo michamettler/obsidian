@@ -1,5 +1,12 @@
 #visualcomputing/computer-graphics #javascript #sem5 
 ## Three.js
+### Richtungen
+```js
+context.beginPath();
+context.moveTo(100, 100); // Startpunkt
+context.lineTo(150, -150); // Linie nach rechts und nach oben
+context.stroke();
+```
 
 ### Example
 

@@ -44,7 +44,7 @@
 - Typically only used for critical parts of the systems
 - In operating systems, MAC is usually used in combination with DAC
 - Based on Integrity Levels (IL) assigned to processes and objects
-	- - Installer
+	- Installer
 	- System (OS processes)
 	- High (administrators)
 	- Medium (non-administrators)

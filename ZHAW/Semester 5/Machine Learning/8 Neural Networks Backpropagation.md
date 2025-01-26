@@ -95,6 +95,9 @@ $$\frac{\partial C}{\partial b^{(L-2)}} =
 and so on...
 
 **Note that in our simple example our training set had just one sample. When the training set has many samples, the partial derivatives are also averaged among all training samples. This is the case because the cost function is computed as the average over the individual costs for all training samples.**
+### Example
+![[Pasted image 20250107180240.png#invert]]
+**einfach alles zurückgehen und Zwischengewichte auslassen**
 ## Overfitting
 ### Dropout
 Deactivating a randomly selected proportion of the neurons during training (the deactivated neurons change per iteration). This randomness forces the network to not rely excessively on any specific set of neurons (=> more **robust**, less sensitive to specific weights). This is only applied in the training process. Dropout percentage is a hyperparameter (typically between 20-50%).
@@ -145,3 +148,13 @@ history = model.fit(
 
 plot_history(history)
 ```
+## Example
+![[Pasted image 20250111210025.png]]
+### Ableitungen
+![[Pasted image 20250111210130.png]]
+#### Ganzer Pfad
+![[Pasted image 20250111210418.png]]
+#### Für Bias
+![[Pasted image 20250111210532.png]]
+## Gradient Descent in NN
+![[Pasted image 20250111210947.png]]

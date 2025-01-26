@@ -1,11 +1,11 @@
 #sem5 #visualcomputing/computer-vision 
 
-## Template Matching
-![[Pasted image 20241202142805.png#invert]]
-Muss normalisiert sein. Template ist nötig und muss mit Bild übereinstimmen (Overfitting). Wird deshalb nur selten verwendet. Sobald zu viel Helligkeit => Sobel [[Image Filtering]] (Ableitung) um Kanten zu erhalten.
 ## Viola-Jones (VJ) Image Detection
 ![[Pasted image 20241202152617.png#invert]]
+![[Pasted image 20250113202309.png]]
+- schnelles Herausfiltern, falls nicht gewünschtes Objekt (sobald Faltung nicht mehr matched => drop)
 ### Simple Image Features
+![[Pasted image 20250110115236.png]]
 Machine Learning: [[1 Introduction]]
 ![[Pasted image 20241202150409.png#invert]]
 #### Classifier
@@ -37,6 +37,8 @@ $A - B - C + D$ = Summe von neuem Feld (links)
 Laufzeit O(1)
 
 **Ziel**: Mit vier Zugriffen Summe von Pixelwerten berechnen (extrem schnell).
+
+![[Pasted image 20250111155857.png]]
 ### Cascaded Classifier
 Mehr Subwindows ohne Gesicht als mit Gesicht 
 => möglichst schnell reject-en

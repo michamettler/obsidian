@@ -9,6 +9,7 @@ https://moodle.zhaw.ch/pluginfile.php/1890591/mod_page/content/30/CT1_Quick_Refe
 ![[Pasted image 20241114201939.png#invert]]
 ## Bit Manipulations
 ![[Pasted image 20241114202039.png#invert]]
+Anmerkung, geht auch BICS R1, R2 etc.
 ## Shift / Rotate
 ![[Pasted image 20241114202137.png]]
 ![[Pasted image 20241114202121.png#invert]]
@@ -27,5 +28,10 @@ Example: https://github.com/michamettler/zhaw-ct1/blob/main/Lab06_ALUBranchInstr
 | 32                    | LSLS #5               |
 | 64                    | LSLS #6               |
 | 128                   | LSLS #7               |
+### Division
+Wie Multiplikation, aber mit Zweier Komplement und Right Shift.
+![[Pasted image 20250123111437.png]]
+#### LSRS vs. ASRS (ACHTUNG; ASRS STATT ASR)
+![[Pasted image 20250123111511.png]]
 ## Sign Extension
 ![[Pasted image 20241114211155.png#invert]]

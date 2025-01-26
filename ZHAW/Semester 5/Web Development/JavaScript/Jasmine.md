@@ -28,5 +28,12 @@ describe("when song has been paused", function() {
 })
 
 
-expect([1, 2, 3]).toEqual([1, 2, 3]) expect(12).toBeTruthy() expect("").toBeFalsy() expect("Hello planet").not.toContain("world") expect(null).toBeNull() expect(8).toBeGreaterThan(5) expect(12.34).toBeCloseTo(12.3, 1) expect("horse_ebooks.jpg").toMatch(/\w+.(jpg|gif|png|svg)/i)
+expect([1, 2, 3]).toEqual([1, 2, 3])
+expect(12).toBeTruthy()
+expect("").toBeFalsy()
+expect("Hello planet").not.toContain("world")
+expect(null).toBeNull()
+expect(8).toBeGreaterThan(5)
+expect(12.34).toBeCloseTo(12.3, 1)
+expect("horse_ebooks.jpg").toMatch(/\w+.(jpg|gif|png|svg)/i)
 ```

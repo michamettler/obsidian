@@ -66,14 +66,14 @@ int max(int a, int b) {     /* Definition */
 Folgende Parameter sind zugelassen:
 - Basis-Datentypen [[Grundlagen]]
 - Structs und Enums [[Grundlagen]]
-- [[Arrays]]
+- [[ZHAW/Semester 4/C/Arrays]]
 - [[Pointer]]
 
 Folgende Rückgabewerte sind zugelassen:
 - Basis-Datentypen [[Grundlagen]]
 - Structs und Enums [[Grundlagen]]
 - [[Pointer]]
-=> [[Arrays]] können nicht returned werden, allerdings über [[Pointer]] (Achtung, keine Referenz auf lokale Variable aufgrund von Lifecycle).
+=> [[ZHAW/Semester 4/C/Arrays]] können nicht returned werden, allerdings über [[Pointer]] (Achtung, keine Referenz auf lokale Variable aufgrund von Lifecycle).
 
 Beispiel:
 ````c

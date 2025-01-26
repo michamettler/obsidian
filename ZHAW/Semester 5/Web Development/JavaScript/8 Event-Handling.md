@@ -112,6 +112,6 @@ Beispiel – Ereignis nur einmal behandeln:
 	- Ausgelöst auf `window` und `document.body`
 	- Elemente mit externen Ressourcen ( `img` ) unterstützen ebenfalls `load` -Events
 	- Bevor Seite verlassen wird: `beforeunload`
-- Diese Ereignisse werden nicht propagiert 
+- **Diese Ereignisse werden nicht propagiert**
 ## Event Objekt
 ![[Pasted image 20241117163724.png#invert]]

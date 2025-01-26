@@ -2,7 +2,7 @@
 ### C vs. Java
 - Java auf C aufgebaut
 - Details weggelassen (Memory Management)
-- C ist fehleranfälliger ([[Pointer]], Variablen auf Stack oder Heap, [[Arrays]] Grenzen)
+- C ist fehleranfälliger ([[Pointer]], Variablen auf Stack oder Heap, [[ZHAW/Semester 4/C/Arrays]] Grenzen)
 - Java Compiler generiert Bytecode, C Maschinencode
 - C nicht plattformunabhängig
 - Java langsamer
@@ -34,7 +34,7 @@
 #### Integer
 ![[Pasted image 20240611121224.png#invert]]
 #### Weitere wichtige Typ-Aliase
-- `size_t`: aus `#include <stddef.h>` für [[Arrays]] Indizes
+- `size_t`: aus `#include <stddef.h>` für [[ZHAW/Semester 4/C/Arrays]] Indizes
 - `ptrdiff_t`: aus `#include <stddef.h>` für [[Pointer]] Subtraktion
 ### Literale
 Im Code eingefügte, unveränderliche Werte

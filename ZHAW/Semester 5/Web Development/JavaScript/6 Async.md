@@ -1,6 +1,7 @@
 #webdevelopment/javascript #sem5 #javascript 
 ## Event Loop
-Wenn Call Stack leer, d.h. (synchrone) Aufrufe abgearbeitet
+Wenn Call Stack leer, d.h. (synchrone) Aufrufe abgearbeitet. Immer zuerst microTaskQueues in EventQueue (**auch vor setImmediate**).
+![[Pasted image 20250118143228.png#invert]]
 ![[Pasted image 20241101201023.png#invert]]
 ## Callback
 Ein Callback ist eine Funktion, welche als Argument einer anderen Funktion übergeben wird und erst aufgerufen wird, wenn das Ereignis eingetreten ist.

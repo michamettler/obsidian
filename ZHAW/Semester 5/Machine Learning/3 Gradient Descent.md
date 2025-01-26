@@ -10,6 +10,7 @@ One of the most well-known algorithms to solve this task is **Gradient Descent*
 ![[Pasted image 20241006152407.png#invert]]
 ### Gradient Descent for Univariate [[2 Linear Regression]]
 Plugging the two formulas above into the gradient descent algorithm yields:
+Important, use MAE and not MSE ([[1 Introduction]]).
 
 1. Initialize: $\theta_0$ and $\theta_1$ (randomly)
 2. Repeat until convergence:

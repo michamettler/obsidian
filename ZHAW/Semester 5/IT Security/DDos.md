@@ -5,7 +5,7 @@ https://www.cloudflare.com/en-gb/learning/ddos/what-is-a-ddos-attack/
 ## Botnet Models
 https://www.cloudflare.com/en-gb/learning/ddos/what-is-a-ddos-botnet/
 ### client/server botnet model
- In this model each bot will connect to a command-and-control center (CnC) resource like a web domain or an IRC channel in order to receive instructions (not used much as CNC is single point of Failure). Can also be hierarchical.
+In this model each bot will connect to a command-and-control center (CnC) resource like a web domain or an IRC channel in order to receive instructions (not used much as CNC is single point of Failure). Can also be hierarchical.
 ![[Pasted image 20241101132737.png#invert]]
 ### peer-to-peer botnet model
 List of trusted computers with which they can give and receive communications and update their malware. Each bot is only exposed to adjacent devices, making it harder to track and more difficult to mitigate. Lacking a centralized command server makes a peer-to-peer botnet more vulnerable to control by someone other than the botnet’s creator. To protect against loss of control, decentralized botnets are typically encrypted so that access is limited.
@@ -31,7 +31,7 @@ The target machine responds to each connection request and then waits for the fi
 ![[Pasted image 20241101130745.png#invert]]
 Direct attack via plain IP (not spoofed). This is often mitigated by [[Firewall]] rules that stop outgoing packets other than SYN packets or by filtering out any incoming SYN-ACK packets before they reach the malicious user's machine
 ##### Mitigation
-- Backlog Queue (certain number of half-open connections that it will allow
+- Backlog Queue (certain number of half-open connections that it will allow)
 - Recycling the Oldest Half-Open TCP connection
 - SYN Cookies (server responds to each connection request with a SYN-ACK packet but then drops the SYN request from the backlog, removing the request from memory and leaving the port open and ready to make a new connection)
 ### Volumetric attacks
@@ -62,5 +62,5 @@ One solution available to virtually all network admins is to create a blackhole 
 Limiting the number of requests a server will accept over a certain time window is also a way of mitigating denial-of-service attacks (likely be insufficient to handle a complex DDoS attack effectively).
 ### Web Application [[Firewall]] (WAF)
 Tool that can assist in mitigating a layer 7 DDoS attack. By putting a WAF between the Internet and an origin server, the WAF may act as a Reverse Proxy, protecting the targeted server from certain types of malicious traffic. One key value of an effective WAF is the ability to quickly implement custom [[Firewall]] rules in response to an attack.
-#### Anycast Network Diffusion
+### Anycast Network Diffusion
 This mitigation approach uses an Anycast network to scatter the attack traffic across a network of distributed servers to the point where the traffic is absorbed by the network.

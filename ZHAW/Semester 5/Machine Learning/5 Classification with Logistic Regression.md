@@ -16,9 +16,11 @@ where $\boldsymbol{\theta}^T \boldsymbol{x} = \theta_0 x_0 + \theta_1 x_1 + ... 
 
 The particular value $\hat{y}$ that you obtain also gives you a sense of how _confident_ the machine is about its judgment.  
 $\hat{y}>0.95$ or $\hat{y}<0.05$ would be considered “confident” whereas $0.4 < \hat{y} < 0.6$ would be considered “not confident”.
+### Example
+![[Pasted image 20250108164526.png#invert]]
 ![[Pasted image 20241007164412.png#invert]]
 ## Training
-In contrast to linear regression, there is no “normal equation” to find the optimal parameter $\theta_0$ in closed form. Instead, we have to use an iterative method such as gradient descent. For the cost function, instead of residual sum of squares (RSS), we will use a new function called the “log loss”:
+In contrast to linear regression, there is no “normal equation” to find the optimal parameter $\theta_0$ in closed form. Instead, we have to use an iterative method such as [[3 Gradient Descent]]. For the cost function, instead of residual sum of squares (RSS), we will use a new function called the “log loss”:
 $$\textrm{Loss}(h_\theta(x), y) = \begin{cases}-\log(h_\theta(x)) & \quad \textrm{if}\quad y=1 \\
                                             -\log(1 - h_\theta(x)) & \quad \textrm{if}\quad y=0 \end{cases}$$
 This is often written instead as:
@@ -28,7 +30,8 @@ $$\textrm{Log-Loss} = -y \log(p) - (1 - y) \log(1 - p)$$
 ![[Pasted image 20241007165054.png#invert]]
 Taking the average log-loss over all examples in the training set, we arrive at the cost function
 $$J(\theta) = \frac{1}{M} \sum_{m=1}^M \textrm{Loss}(h_\theta(x^{(m)}), y^{(m)})$$
-This then gives rise to the gradient descent algorithm for logistic regression:
+![[Pasted image 20250104213801.png#invert]]
+This then gives rise to the [[3 Gradient Descent]] algorithm for logistic regression:
 
 1. Initialize (randomly): $\theta_0$, $\theta_1$
 2. Repeat until convergence:
@@ -116,3 +119,5 @@ for alpha in [ 0.0001, 0.001, 0.01 ]:
 ## Sensitivity of Linear Regression to Outliers
 ![[Pasted image 20241007165854.png#invert]]
 ![[Pasted image 20241007165902.png#invert]]
+## Graphen analysieren
+![[Pasted image 20250108161457.png]]

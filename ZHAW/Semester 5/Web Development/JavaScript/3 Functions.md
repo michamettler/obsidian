@@ -213,6 +213,8 @@ let more = ["a", "b"]
 numbers = [5, 1, ...more, 7]
 console.log(numbers) /* → [ 5, 1, 'a', 'b', 7 ] */
 ```
+### Spread vs. Rest
+![[Pasted image 20250119192647.png]]
 ### Deconstruction
 #### Arrays
 - Wie bei der Zuweisung können Arrays auch bei der Parameterübergabe destrukturiert werden

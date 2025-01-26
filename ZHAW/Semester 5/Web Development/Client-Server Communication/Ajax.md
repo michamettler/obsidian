@@ -42,5 +42,5 @@ fetch(url).then(response => {
 - Grund: Angriffsmöglichkeiten reduzieren
 - Manchmal ist der Zugriff auf andere Server erwünscht
 - Cross-Origin Resource Sharing (CORS)
-- Server kann Zugriff erlauben mit diesem Header:
-  `Access-Control-Allow-Origin: *`
+- Server kann Zugriff erlauben mit diesem Header:  `Access-Control-Allow-Origin: *`
+- Server stellt Zertifikat zur Verfügung, Browser prüft es (TLS)

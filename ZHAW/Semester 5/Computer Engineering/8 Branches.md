@@ -21,21 +21,29 @@
 	- `B <label>`
 	- Direct
 	- Relative
-- BX (Branch and Exchange)
+- BX (register)
 	- `BX R0`
 	- Branch and Exchange
+	- `BX <Label>` funktioniert nicht!
 	- Indirect (=> target from register)
 	- Absolute
+- BLX (register)
+	- `BLX R0`
+	- indirect
+	- PC = register
+![[Pasted image 20250122102555.png]]
+![[Pasted image 20250122102649.png]]
 ## Conditional
 Conditional Branches Flag-dependent and arithmetic branches.
-- Indirect
-- Absolute (only when **X** (BX or BLX))
-- relative
+- Direct
+- **always** relative
 
 Unsigned
 - Higher and Lower
 Signed
 - Greater and Less
+
+**ACHTUNG, oft zuerst [[#Compare and Test]] nötig**
 ### Flag-dependent
 ![[Pasted image 20241114205955.png#invert]]
 ### Arithmetic - unsigned
@@ -54,4 +62,3 @@ Signed
 - **AND** (without storing result) [[7 Logic and Shift-Rotate]] 
 - changes N and Z (C and V unchanged)
 - ![[Pasted image 20241114210359.png#invert]]
-![[Pasted image 20241114210415.png#invert]]

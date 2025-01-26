@@ -27,8 +27,8 @@ The [[#Activation Function]] regulates the value of the output (is it non-zero, 
 ### Overview
 A neural network consists of many connected neurons organized in layers. The number of hidden layers defines the **depth** of the network. In feed-forward neural networks, subsequent layers are **fully conected**. The model parameters of a neural network comprise the weights and biases of all neurons in the network (number of edges/connections).
 #### Amount of Parameter
-**Prinzip verstehen, nicht nur Formel lernen**
-$p(\text{neuron})^2 \cdot (k(\text{hidden layers}) + 1) + p + (k + 1)$
+Don't forget biases p + p + n_output
+![[Pasted image 20250107174930.png#invert]]
 #### Illustration
 ![[Pasted image 20241108170043.png#invert]]
 #### Terminology
@@ -129,3 +129,8 @@ Training a neural network translates to finding the model parameters that minimi
 3. **Adjust the model parameters** by a small step α (the learning rate) in the opposite direction of the gradient:
    $$\mathbf{w} = \mathbf{w} - \alpha \frac{\partial L}{\partial \mathbf{w}}$$
 ![[Pasted image 20241108181504.png#invert]]
+### Cross-Entropy-Loss
+![[Pasted image 20250107135720.png#invert]]
+![[Pasted image 20250107135850.png#invert]]
+## Terminology
+![[Pasted image 20250107135936.png#invert]]

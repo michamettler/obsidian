@@ -86,3 +86,8 @@ function elt (type, ...children) {
 ### Eigene Attribute
 - Beginnen mit `"data-"`
 - DOM-Attribut `dataset` liefert `DOMStringMap` mit allen `data` -Attributen
+- ![[Pasted image 20250118153226.png#invert]]
+## CSS
+![[Pasted image 20250118153608.png#invert]]
+### Example
+![[Pasted image 20250118153634.png#invert]]

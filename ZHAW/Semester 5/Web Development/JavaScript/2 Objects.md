@@ -159,7 +159,7 @@ console.log(data[4](3)) // 6
 ```sh
 > let data = [ 1, 2, 3, 10, 11 ]
 
-> data.slice(1, 3)
+> data.slice(1, 3) # startIndex inlusiv, endIndex exklusiv (Index 1 & 2 hier)
 [ 2, 3 ]
 
 > data.concat([100, 101])

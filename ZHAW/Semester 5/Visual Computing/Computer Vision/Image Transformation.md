@@ -3,12 +3,13 @@
 Wird u.a. auch verwendet, um Daten in Machine Learning zu vermehren (Data Augmentation).
 **Inverse von Nachbarschaft damit alle Pixel berücksichtigt werden (keine schwarze Löcher). Wenn transformierter Pixel ausserhalb von Bild, ignorieren (wichtig).**
 ![[Pasted image 20241118151320.png#invert]]
+![[Pasted image 20250113201436.png]]
 ### Geometry
 Pixel coordinate transformation
 - Homogene Coordination
 - Transformation Matrix (Affine, Perspective, etc.)  
 ### Radiometric
-Gray/ Color value interpolation
+Gray/Color value interpolation
 - Nearest neighbor
 - Bilinear (4 neighbors, weights)
 - Cubic

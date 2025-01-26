@@ -20,17 +20,27 @@ https://moodle.zhaw.ch/pluginfile.php/1890591/mod_page/content/30/CT1_Quick_Refe
 #### unsigned
 - Addition → C = 1 → **carry** result too large for available bits
 - Subtraction → C = 0 → **borrow** result less than zero → no negative numbers
+##### Subtraction Burrow
+![[Pasted image 20250116153617.png#invert]]
 #### signed
 - Addition → potential **overflow** in case of operands with equal signs
 - Subtraction → potential **overflow** in case of operands with opposite signs
-### Zweier Komplement
+### Zweier Komplement um Berechnen der Negativ Zahl
+0101: 5
+1011: -5
 ![[Pasted image 20241113220050.png#invert]]
 #### In Assembly
 - **RSBS** Instruction
 ![[Pasted image 20241113220347.png#invert]]
 ## Instructions
+### Addieren
+**Wieviel max. addieren bis 1111 1111**
 ![[Pasted image 20241115192146.png#invert]]
+### Subtrahieren
+**Wieviel max. subtrahieren bis 1000 0000 (im Rechner nachschauen)**
+![[Pasted image 20250123173525.png#invert]]
 ### Addition
+![[Pasted image 20250116151607.png#invert]]
 #### ADDS
 - update of flags
 - result and two operands
@@ -85,11 +95,14 @@ https://moodle.zhaw.ch/pluginfile.php/1890591/mod_page/content/30/CT1_Quick_Refe
 - only low registers
 - result only contains lowest 32 bits of product
 ![[Pasted image 20241113221451.png#invert]]
+![[Pasted image 20250123183232.png#invert]]
+![[Pasted image 20250123183830.png#invert]]
 ## Multi-Word Arithmetic
 ### Multi-Word Addition with ADCS
 ![[Pasted image 20241113221232.png#invert]]
 ### Multi-Word Subtraction with SBCS
 ![[Pasted image 20241113221254.png#invert]]
 ## Integer Casting in C
+
 ![[Pasted image 20241113221627.png#invert]]
 ![[Pasted image 20241113221712.png#invert]]

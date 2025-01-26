@@ -17,7 +17,8 @@ $$J(𝜃_0,𝜃_1)=\frac{1}{2 M} \sum_{𝑚=1}^𝑀(𝑦^{(m)}−\hat{𝑦}^{(m)
 Minimizing the cost function results in specific values for the model parameters $\theta_0$ and $\theta_1$, which can then be used for predicting the output for new data samples (also called **Inference**):
 $$\hat{y}=h_{\hat{\theta}_0,\hat{\theta}_1}(x)=\hat{\theta}_0+\hat{\theta}_1 x$$
 ### Closed Form Solution for Univariate Linear Regression
-Using these equations we can simple compute the optimal values for parameters $\theta_0$ and $\theta_1$  for the $M$ given training samples ${(𝑥^{(m)},𝑦^{(m)})}$.
+Using these equations we can simple compute the optimal values for parameters $\theta_0$ and $\theta_1$  for the $M$ given training samples ${(𝑥^{(m)},𝑦^{(m)})}$. ($\mu_x$ = Mittelwert von x)
+
 $$\hat{\theta}_0=\mu_y-\theta_1\mu_x \ $$
 and
 $$\hat{\theta}_1=\frac{\sum_{m=1}^M(x^{(m)}-\mu_x)(y^{(m)}-\mu_y)}{\sum_{m=1}^M(x^{(m)}-\mu_x)^2}= \frac{\tilde{s}_{xy}}{\tilde{s}_x^2} \tag{2.2}$$
@@ -26,6 +27,7 @@ Data Set:
 ![[Pasted image 20241006145655.png#invert]]
 Calculation (vgl. $2.2$):
 ![[Pasted image 20241006145723.png#invert]]
+![[Pasted image 20250108151817.png#invert]]
 #### Example Calculation Python
 
 ```python
@@ -99,13 +101,14 @@ with a corresponding matrix $X$, where the first column contains values $1$ an
 This leads to a closed form-expression for the optimal parameters:
 $$\boldsymbol{\theta} = (\boldsymbol{X}^T \boldsymbol{X})^{−1} \boldsymbol{X}^T \boldsymbol{y} \tag{2.3}$$
 We can now use this **Normal Equation** to directly compute the solution for a linear regression problem.
-
+#### Example
+![[Pasted image 20250108152347.png#invert]]
 ## Multivariate Linear Regression
 **Multivariate Linear Regression**, also called **Multiple Linear Regression**, is the natural extension of the simple linear regression framework to more than one predictor variables (features).
 
 Thus, we now extend our simple approach for one input variable to the general case with $N$ input variables (features). The $N>1$ features can be combined into a single linear combination. The model then takes the following form for the $m$’th sample (we denote the $i$’th feature of the $m$’th sample as xi(m)):
 $$\hat{y}^{(m)} = h_{\theta}(x^{(m)}) = \theta_0 x_{0}^{(m)} + \theta_1 x_{1}^{(m)} + \theta_2 x_{2}^{(m)} + ... + \theta_N x_{N}^{(m)}  = \boldsymbol{\theta}^T\boldsymbol{X}_{m,:}  \tag{2.4}$$
-ere, we introduce a new artificial feature variable $x_{0}^{(m)} := 1$ for all $m=1,...,M$ to simplify the notation (i.e., writing the sum as a vector product).
+Here, we introduce a new artificial feature variable $x_{0}^{(m)} := 1$ for all $m=1,...,M$ to simplify the notation (i.e., writing the sum as a vector product).
 $$\boldsymbol{y} = \boldsymbol{X} \boldsymbol{\theta} + \boldsymbol{\varepsilon}$$
 #### Example
 ![[Pasted image 20241006151311.png#invert]]

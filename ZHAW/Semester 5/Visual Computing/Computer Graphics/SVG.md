@@ -3,6 +3,7 @@
 - Create canvas within HTML DOM
 - Draw on canvas via JavaScript
 - Use '2D’ context for drawing
+- Ursprung 0,0 ist oben links
 
 ```html
 <body>
@@ -132,3 +133,5 @@ Sorry, your browser does not support inline SVG.
 </svg>
 </body>
 ```
+## SVG vs. Canvas
+![[Pasted image 20250113200332.png]]

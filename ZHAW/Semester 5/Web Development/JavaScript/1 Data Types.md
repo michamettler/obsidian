@@ -37,7 +37,7 @@ typeof 'number' // 'string'
 #### String
 - `" "` und `' '` dasselbe
 - Strings sind in JavaScript ein primitiver Datentyp
-- String-Methoden [[3 Functions]] sind in String.prototype definiert (mehr zu Prototypen später)
+- String-Methoden [[3 Functions]] sind in `String.prototype` definiert (mehr zu Prototypen später)
 
 ```sh
 > String.prototype.slice

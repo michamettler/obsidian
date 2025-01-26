@@ -40,7 +40,7 @@ RETURN $c_1, \ldots, c_K$ as the centroids of the $K$ clusters
 $$d(p,q)=\sqrt{\sum_{i = 1}^{N} (q_{i} - p_{i})^{2}}$$
 ![[Pasted image 20241207194011.png#invert]]
 #### Selection of initial centroids
-- - _Random points_
+- _Random points_
 - The _Forgy method_ randomly chooses K observations from the dataset and uses these as the initial means;
 - The _Random Partition_ method first randomly assigns a cluster to each observation and then proceeds to the update step, thus computing the initial mean to be the centroid of the cluster’s randomly assigned points
 - K-means++
@@ -65,6 +65,8 @@ The _Silhouette Method_ computes the average Silhouette score for the clusteri
 ![[Pasted image 20241207195501.png#invert]]
 Note that the Silhouette Method might not perform as expected for all data shapes (like here):
 ![[Pasted image 20241207195526.png#invert]]
+#### Example Average Linkage
+![[Pasted image 20250112183230.png]]
 ### DBSCAN
 _DBSCAN_ stands for _Density-based Spatial Clustering of Applications with Noise_.
 he basic idea of DBSCAN is that clusters form dense regions in the data and are separated by relatively empty areas. Points within a dense region are called core points. DBSCAN identifies points in “densely populated” regions of the feature space in which many data points lie close together.

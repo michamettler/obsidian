@@ -24,6 +24,7 @@ $$\text{subject to} \ y^{(m)}\left(b + \mathbf{w}^T\mathbf{x}^{(m)} \right) \geq
 Naturally, a classifier that is based on a separating hyperplane leads to a linear **decision boundary**.
 ![[Pasted image 20241022211407.png#invert]]
 There are two classes of samples, shown in blue and in red. The maximal margin [[#Hyperplane]] is shown as a solid line. The margin is the distance from the solid line to either of the dashed lines. The two blue points and the red point that lie on the dashed lines are the support vectors, and the distance from those points to the hyperplane is indicated by grey solid lines. The red and blue grid indicates the decision rule made by a classifier based on this separating hyperplane.
+![[Pasted image 20250104225733.png#invert]]
 #### Python Example
 
 ```python
@@ -64,8 +65,9 @@ $$\underset{b, \mathbf{w}, \mathbf{\epsilon}}{\text{min}}\frac{1}{2}||\mathbf{w}
 $$\text{subject to }\epsilon_m \geq0, \ y^{(m)}\left( b + \mathbf{w}^T\mathbf{x}^{(m)} \right) \geq 1-\epsilon_m \tag{6.10}$$
 where $C$ is nonnegative and acts as a regularization parameter. **A sample that lies strictly on the correct side of the margin does not affect the soft margin classifier!**
 The value of $C$ affects the **bias-variance trade-off** of the model: When $C$ is small, the margin is wide (fig. a). This amounts to fitting the data less hard and obtaining a classifier with low variance but potentially high bias.
-In practice, $C$ is treated as a tunable hyperparameter that is generally chosen via cross-validation. [[Data Partitioning]]
+**In practice, $C$ is treated as a tunable hyperparameter that is generally chosen via cross-validation.** [[Data Partitioning]]
 ![[Pasted image 20241022213001.png#invert]]
+![[Pasted image 20250104230056.png#invert]]
 #### Python Example
 
 ```python
@@ -108,7 +110,7 @@ where the degree $d$ is a positive integer. Using such a kernel with $d>1$, i
 Another popular choice for a non-linear kernel function is the **rbf kernel** (rbf: short for Radial Basis Function, also just called radial or Gaussian kernel):
 $$\mathcal{K}\left(\mathbf{x}^{(m)},\mathbf{x}^{(m')}\right)=\exp\left(-\gamma ||\mathbf{x}^{(m)} -\mathbf{x}^{(m')}||^2 \right), \tag{6.16}$$
   
- $\gamma$ in is a positive constant inversely proportional to the variance of the Gaussian $\gamma=\frac{1}{\sigma^2}$. That is, with larger values for $\gamma$ the Kernel has a smaller spread and influences the classification only in the immediate surrounding of each sample. This makes the decision boundary typically rougher - leading to low bias, but high variance (a small change in the data has a large effect).
+ $\gamma$ in is a positive constant inversely proportional to the variance of the Gaussian $\gamma=\frac{1}{\sigma^2}$. That is, with **larger values for $\gamma$ the Kernel has a smaller spread and influences the classification only in the immediate surrounding of each sample**. This makes the decision boundary typically rougher - leading to low bias, but high variance (a small change in the data has a large effect).
   
  $\gamma$ and $d$ are hyperparameters that are typically tuned along with $C$ via cross-validation. [[Data Partitioning]]
 ![[Pasted image 20241022213953.png#invert]]
@@ -163,3 +165,5 @@ plt.show()
 ## SVMs for Regression
 To use SVMs for regression instead of classification, the trick is to tweak the objective: Instead of trying to fit the largest possible street between two classes while limiting margin violations, SVM regression tries to fit as many instances as possible on the street while limiting margin violations.
 The width of the street is controlled by a hyperparameter, $\epsilon$. To tackle nonlinear regression tasks, kernelized SVM models can be employed.
+## Geometrische Interpretation
+![[Pasted image 20250111193123.png#invert]]

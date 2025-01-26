@@ -4,7 +4,8 @@
 ## Netfilter
 Kernel has a number of hooks that are called at different points during packet processing
 - Nftables rules have a classification part and one or more action parts
-- Classification part says to what packets this rule applies • Action says what to do with the packet. There are several actions:
+- Classification part says to what packets this rule applies
+- Action says what to do with the packet. There are several actions:
 	- **accept**: continue to process the packet
 	- **drop**: stop processing the packet
 	- **reject**: stop processing the packet and tell the sender

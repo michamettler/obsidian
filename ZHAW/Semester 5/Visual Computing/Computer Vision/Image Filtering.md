@@ -32,7 +32,10 @@ Faltung ($*$ in Formel).
 ![[Pasted image 20241118143742.png#invert]]
 ## Hough Transformation
 Gerade Linien in Bildern erkennen (oben rechts is Gerade in Bild):
+1. Apply Sobel
+2. Apply Hough to detect the edges
 ![[Pasted image 20241118150923.png#invert]]
 (geht auch mit Kreisen => überlappend)
+![[Pasted image 20250110113144.png]]
 ## CNN
-Neuronales Netz lernt [[#Filter Kernels]] (sowohl lineare als auch nicht linear).
+[[Convolutional Neural Network (CNN)]] Neuronales Netz lernt [[#Filter Kernels]] (sowohl lineare als auch nicht linear).
