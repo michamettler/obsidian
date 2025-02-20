@@ -1,0 +1,12 @@
+{
+  "accentColor": "",
+  "enabledCssSnippets": [
+    "adaptive_images",
+    "image_zoom",
+    "image_zoom2",
+    "invert_image_color",
+    "headers"
+  ],
+  "cssTheme": "",
+  "theme": "obsidian"
+}

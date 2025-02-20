@@ -1,0 +1,246 @@
+{
+  "main": {
+    "id": "041fca210e22bf37",
+    "type": "split",
+    "children": [
+      {
+        "id": "a4d1febe5c1532d0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f5d012cb83b3959f",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c435309ab26b3198",
+    "type": "split",
+    "children": [
+      {
+        "id": "72f52c62688d56af",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e6aa84307626ce45",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "908508a6fd2f5464",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#webdevelopment",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "7fa8eed0f28d478d",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 262.5
+  },
+  "right": {
+    "id": "f4d06e4e56e311b4",
+    "type": "split",
+    "children": [
+      {
+        "id": "7400b79ae900a93f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0bfae91b2ef59c6c",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "7d4379eec99b727c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "c1020413cf06950f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "5900882bb0b1b9b9",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          },
+          {
+            "id": "cbd068580cce32d5",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          }
+        ],
+        "currentTab": 3
+      },
+      {
+        "id": "77d316cce4d0aad3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ebc13ef05139fe02",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "graph",
+              "state": {},
+              "pinned": true,
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 372.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "publish:Publish changes...": false
+    }
+  },
+  "active": "f5d012cb83b3959f",
+  "lastOpenFiles": [
+    "ZHAW/Semester 6/Visual Computing 2/Computer Graphics/Texture Mapping.md",
+    "ZHAW/Semester 6/Visual Computing 2/screenshots/Pasted image 20250220215659.png",
+    "ZHAW/Semester 6/Visual Computing 2/screenshots/Pasted image 20250220215538.png",
+    "Pasted image 20250220215522.png",
+    "ZHAW/Semester 6/Visual Computing 2/screenshots/Pasted image 20250220214907.png",
+    "ZHAW/Semester 6/Visual Computing 2/screenshots/Pasted image 20250220215247.png",
+    "ZHAW/Semester 6/Visual Computing 2/screenshots/Pasted image 20250220215120.png",
+    "ZHAW/Semester 6/Visual Computing 2/screenshots/Pasted image 20250220215005.png",
+    "ZHAW/Semester 6/Visual Computing 2/screenshots/Pasted image 20250220214930.png",
+    "ZHAW/Semester 6/Visual Computing 2/screenshots/Pasted image 20250220213835.png",
+    "ZHAW/Semester 6/Visual Computing 2/screenshots/Pasted image 20250220214803.png",
+    "ZHAW/Semester 5/Visual Computing/Labs/Lab Convolution Filtering.md",
+    "ZHAW/Semester 6/Visual Computing 2/screenshots",
+    "ZHAW/Semester 6/Visual Computing 2/Labs/Texture Mapping.md",
+    "ZHAW/Semester 6/Visual Computing 2/Labs/screenshots",
+    "ZHAW/Semester 4/Software Engineering/Artefacts.md",
+    "ZHAW/Semester 6/Visual Computing 2/Labs",
+    "ZHAW/Semester 6/Visual Computing 2/Computer Graphics",
+    "ZHAW/Semester 6/Communications",
+    "ZHAW/Semester 6/Software Engineering 2",
+    "ZHAW/Semester 6/Visual Computing 2",
+    "ZHAW/Semester 6/Physics Engines",
+    "ZHAW/Semester 6/Computer Engineering 2",
+    "ZHAW/Semester 6/Operating Systems",
+    "ZHAW/Semester 5/Computer Engineering/12 Exceptional Control Flow.md",
+    "ZHAW/Semester 5/Computer Engineering/13 Increasing System Performance.md",
+    "ZHAW/Semester 5/IT Security/User Authorisation.md",
+    "ZHAW/Semester 5/Computer Engineering/Arrays.md",
+    "ZHAW/Semester 5/Computer Engineering/Instructions Overview.md",
+    "ZHAW/Semester 5/Visual Computing/Computer Graphics/Light and Surface Perception.md",
+    "ZHAW/Semester 5/Visual Computing/Computer Graphics/Transformations.md",
+    "ZHAW/Semester 5/Visual Computing/Computer Graphics/Basics.md",
+    "ZHAW/Semester 5/Visual Computing/Computer Graphics/Fonts.md",
+    "ZHAW/Semester 5/IT Security/User Authentication Protocol.md",
+    "ZHAW/Semester 5/IT Security/User Authentication.md",
+    "ZHAW/Semester 5/IT Security/Rechtliche Rahmenbedingungen.md",
+    "ZHAW/Semester 5/IT Security/Penetrationstest.md",
+    "ZHAW/Semester 5/IT Security/DDos.md",
+    "ZHAW/Semester 5/IT Security/Certificates.md",
+    "ZHAW/Semester 5/IT Security/Kryptographie.md",
+    "ZHAW/Semester 5/Visual Computing/Labs/Lab Hot-Dog.md",
+    "ZHAW/Semester 5/Visual Computing/Labs/Lab Image Manipulations.md",
+    "ZHAW/Semester 5/Visual Computing/Computer Vision/Paper Analysis.md",
+    "ZHAW/Semester 5/Visual Computing/Computer Vision/Convolutional Neural Network (CNN).md",
+    "ZHAW/Semester 5/Machine Learning/10 Clustering.md",
+    "Untitled.canvas"
+  ]
+}

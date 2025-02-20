@@ -1,0 +1,8 @@
+body {
+    --h1-color: var(--color-red);
+    --h2-color: var(--color-orange);
+    --h3-color: var(--color-green);
+    --h4-color: var(--color-purple);
+    --h5-color: var(--color-pink);
+    --bold-color: var(--color-yellow);
+}

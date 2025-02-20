@@ -1,0 +1,79 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": true,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "tag:#itsecurity  ",
+      "color": {
+        "a": 1,
+        "rgb": 5413856
+      }
+    },
+    {
+      "query": "tag:#webdevelopment  ",
+      "color": {
+        "a": 1,
+        "rgb": 14725458
+      }
+    },
+    {
+      "query": "tag:#machinelearning  ",
+      "color": {
+        "a": 1,
+        "rgb": 14710098
+      }
+    },
+    {
+      "query": "tag:#visualcomputing  ",
+      "color": {
+        "a": 1,
+        "rgb": 5431008
+      }
+    },
+    {
+      "query": "tag:#economics  ",
+      "color": {
+        "a": 1,
+        "rgb": 10506976
+      }
+    },
+    {
+      "query": "tag:#c",
+      "color": {
+        "a": 1,
+        "rgb": 14701195
+      }
+    },
+    {
+      "query": "tag:#computerengineering  ",
+      "color": {
+        "a": 1,
+        "rgb": 2807173
+      }
+    },
+    {
+      "query": "tag:#softwareengineering  ",
+      "color": {
+        "a": 1,
+        "rgb": 14701138
+      }
+    }
+  ],
+  "collapse-display": true,
+  "showArrow": false,
+  "textFadeMultiplier": 0.8,
+  "nodeSizeMultiplier": 1,
+  "lineSizeMultiplier": 1,
+  "collapse-forces": false,
+  "centerStrength": 0.565104166666667,
+  "repelStrength": 11.9270833333333,
+  "linkStrength": 0.846354166666667,
+  "linkDistance": 159,
+  "scale": 0.27763511190514467,
+  "close": true
+}
