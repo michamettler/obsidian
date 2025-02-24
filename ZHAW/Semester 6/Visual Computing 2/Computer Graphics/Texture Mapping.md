@@ -58,4 +58,4 @@ Sphere Map is simpler, however cubic is more commonly used.
 
 **REPETIEREN**
 ![[Pasted image 20250220215538.png#invert]]
-![[Pasted image 20250220215247.png]]
+![[Pasted image 20250220215247.png#invert]]

@@ -15,7 +15,7 @@ Für diese Aufgabe habe ich zuerst den die Sphere gem. Anleitung hinzugefügt un
 ![[Pasted image 20250220203052.png]]
 Schritt 7. führt bei mir allerdings zu einem seltsamen Resultat:
 ![[Pasted image 20250220205835.png]]
-Somit belasse ich es auf Bump Only.
-
-Nach Ausführen der sonstigen Schritte komme ich somit auf folgendes Resultat:
-![[Pasted image 20250220210345.png]]
+Nach etwas Recherche habe ich allerdings herausgefunden, dass ich einfach die Scale des Replacements runter setzen muss:
+![[Pasted image 20250221190117.png]]
+Das Endresultat sieht somit wie folgt aus:
+![[Pasted image 20250221190413.png]]

@@ -62,6 +62,27 @@
         "a": 1,
         "rgb": 14701138
       }
+    },
+    {
+      "query": "tag:#operatingsystems",
+      "color": {
+        "a": 1,
+        "rgb": 14701233
+      }
+    },
+    {
+      "query": "tag:#physics",
+      "color": {
+        "a": 1,
+        "rgb": 14701138
+      }
+    },
+    {
+      "query": "tag:#gamedevelopment",
+      "color": {
+        "a": 1,
+        "rgb": 5431492
+      }
     }
   ],
   "collapse-display": true,
@@ -74,6 +95,6 @@
   "repelStrength": 11.9270833333333,
   "linkStrength": 0.846354166666667,
   "linkDistance": 159,
-  "scale": 0.27763511190514467,
+  "scale": 0.243922870525807,
   "close": true
 }

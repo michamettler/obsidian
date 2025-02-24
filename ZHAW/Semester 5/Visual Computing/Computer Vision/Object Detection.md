@@ -6,7 +6,7 @@
 - schnelles Herausfiltern, falls nicht gewünschtes Objekt (sobald Faltung nicht mehr matched => drop)
 ### Simple Image Features
 ![[Pasted image 20250110115236.png]]
-Machine Learning: [[1 Introduction]]
+Machine Learning: [[ZHAW/Semester 5/Machine Learning/1 Introduction]]
 ![[Pasted image 20241202150409.png#invert]]
 #### Classifier
 Choosing a feature that generates a good threshold:
