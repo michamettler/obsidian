@@ -74,7 +74,7 @@
       "query": "tag:#physics",
       "color": {
         "a": 1,
-        "rgb": 14701138
+        "rgb": 10543186
       }
     },
     {
@@ -95,6 +95,6 @@
   "repelStrength": 11.9270833333333,
   "linkStrength": 0.846354166666667,
   "linkDistance": 159,
-  "scale": 0.243922870525807,
+  "scale": 0.21163003982014508,
   "close": true
 }

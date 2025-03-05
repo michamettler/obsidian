@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "a4d1febe5c1532d0",
+        "id": "ddeb0627b8a67ffa",
         "type": "tabs",
         "children": [
           {
-            "id": "f5d012cb83b3959f",
+            "id": "544725202c26341a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ZHAW/Semester 6/Physics Engines/unity/Basics.md",
+                "file": "ZHAW/Semester 6/Computer Engineering 2/1 Microcontroller Basics.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Basics"
+              "title": "1 Microcontroller Basics"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ZHAW/Semester 6/Physics Engines/unity/Basics.md",
+                "file": "ZHAW/Semester 6/Computer Engineering 2/1 Microcontroller Basics.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Basics"
+              "title": "Outline of 1 Microcontroller Basics"
             }
           },
           {
@@ -199,21 +199,30 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "f5d012cb83b3959f",
+  "active": "544725202c26341a",
   "lastOpenFiles": [
-    "ZHAW/Semester 6/Physics Engines/unity/screenshots/Basics-1740383888053.webp",
+    "ZHAW/Semester 6/Visual Computing 2/Computer Graphics/Animation.md",
+    "ZHAW/Semester 6/Visual Computing 2/Computer Graphics/screenshots/Animation-1741015076340.webp",
+    "ZHAW/Semester 6/Visual Computing 2/Computer Graphics/screenshots/Animation-1741014994401.webp",
+    "ZHAW/Semester 6/Visual Computing 2/Computer Graphics/screenshots/Animation-1741013871633.webp",
+    "ZHAW/Semester 6/Visual Computing 2/Computer Graphics/screenshots/Animation-1741013803602.webp",
+    "ZHAW/Semester 6/Visual Computing 2/Computer Graphics/screenshots/Animation-1741013731658.webp",
+    "ZHAW/Semester 6/Visual Computing 2/Computer Graphics/screenshots/Animation-1741010323019.webp",
+    "ZHAW/Semester 6/Visual Computing 2/Computer Graphics/screenshots/Animation-1741010235121.webp",
+    "ZHAW/Semester 6/Visual Computing 2/Computer Graphics/screenshots/Animation-1741008877743.webp",
+    "ZHAW/Semester 6/Visual Computing 2/Computer Graphics/screenshots/Animation-1741008802555.webp",
+    "ZHAW/Semester 6/Visual Computing 2/Computer Graphics/screenshots/Animation-1741008025630.webp",
+    "ZHAW/Semester 6/Physics Engines/unity/Bezugssysteme in Unity.md",
+    "ZHAW/Semester 6/Physics Engines/physics/Kinematik.md",
+    "ZHAW/Semester 6/Physics Engines/physics/Basics/Integral.md",
+    "ZHAW/Semester 6/Physics Engines/physics/Basics/Ableitung.md",
+    "ZHAW/Semester 6/Physics Engines/physics/Basics",
+    "ZHAW/Semester 6/Physics Engines/physics/Bezugssysteme.md",
+    "ZHAW/Semester 6/Physics Engines/physics/screenshots",
+    "ZHAW/Semester 6/Visual Computing 2/Computer Graphics/OpenGL.md",
+    "ZHAW/Semester 6/Visual Computing 2/Computer Graphics/screenshots",
     "ZHAW/Semester 6/Physics Engines/unity/Basics.md",
     "ZHAW/Semester 6/Computer Engineering 2/1 Microcontroller Basics.md",
-    "ZHAW/Semester 6/Physics Engines/unity/screenshots/Basics-1740245602245.webp",
-    "ZHAW/Semester 6/Physics Engines/unity/screenshots/Basics-1740383634063.webp",
-    "ZHAW/Semester 6/Physics Engines/unity/screenshots/Basics-1740383689642.webp",
-    "ZHAW/Semester 6/Physics Engines/unity/screenshots/Basics-1740383583244.webp",
-    "ZHAW/Semester 6/Physics Engines/unity/screenshots/Basics-1740383534750.webp",
-    "ZHAW/Semester 6/Physics Engines/unity/screenshots/Basics-1740383407149.png",
-    "ZHAW/Semester 6/Physics Engines/unity/screenshots/Basics-1740383303085.png",
-    "screenshots/Basics-1740383239074.webp",
-    "screenshots/Basics-1740383200527.webp",
-    "screenshots/Basics-1740383179472.webp",
     "screenshots",
     "ZHAW/Semester 6/Physics Engines/unity/screenshots",
     "ZHAW/Semester 6/Communications/screenshots",
@@ -221,13 +230,10 @@
     "ZHAW/Semester 6/Computer Engineering 2/screenshots",
     "ZHAW/Semester 6/Operating Systems/screenshots",
     "ZHAW/Semester 6/Physics Engines/unity",
-    "ZHAW/Semester 6/Physics Engines/physics",
     "ZHAW/Semester 6/Operating Systems/Linux.md",
     "ZHAW/Semester 6/Visual Computing 2/Computer Graphics/Texture Mapping.md",
     "ZHAW/Semester 5/Visual Computing/Labs/Lab Convolution Filtering.md",
-    "ZHAW/Semester 6/Visual Computing 2/screenshots",
     "ZHAW/Semester 6/Visual Computing 2/Labs/Texture Mapping.md",
-    "ZHAW/Semester 6/Visual Computing 2/Labs/screenshots",
     "ZHAW/Semester 4/Software Engineering/Artefacts.md",
     "ZHAW/Semester 5/Computer Engineering/12 Exceptional Control Flow.md",
     "ZHAW/Semester 5/Computer Engineering/13 Increasing System Performance.md",
@@ -241,12 +247,6 @@
     "ZHAW/Semester 5/IT Security/User Authentication Protocol.md",
     "ZHAW/Semester 5/IT Security/User Authentication.md",
     "ZHAW/Semester 5/IT Security/Rechtliche Rahmenbedingungen.md",
-    "ZHAW/Semester 5/IT Security/Penetrationstest.md",
-    "ZHAW/Semester 5/IT Security/DDos.md",
-    "ZHAW/Semester 5/IT Security/Certificates.md",
-    "ZHAW/Semester 5/IT Security/Kryptographie.md",
-    "ZHAW/Semester 5/Visual Computing/Labs/Lab Hot-Dog.md",
-    "ZHAW/Semester 5/Visual Computing/Labs/Lab Image Manipulations.md",
     "Untitled.canvas"
   ]
 }
